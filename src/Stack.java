@@ -1,4 +1,3 @@
-
 public interface Stack<E> {
     /**
      * Add an item to the stack. Will be popped next.
@@ -28,9 +27,5 @@ public interface Stack<E> {
      * Get the size of the Stack.
      * @return Integer indicating the size of the Stack
      */
-    public int size();
-
-    
-
-    	
+    public int size();   	
 }

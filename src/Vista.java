@@ -5,7 +5,7 @@ public class Vista {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		while(true) {
-		System.out.println("Ingrese una expresión:\n");
+		System.out.println("Ingrese una expresiï¿½n:\n");
 		String expression = scanner.nextLine();
 		Scanner scn = new Scanner(expression);
 		}
