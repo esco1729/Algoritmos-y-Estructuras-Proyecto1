@@ -3,6 +3,7 @@ public class Predicados {
 
 	
 	public boolean equal() {
+		return false;
 		
 	}
 	
