@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 
-public class StackArrayList<E>
- implements Stack<E>
-{
+public class StackArrayList<E> implements Stack<E> {
+	
 	protected ArrayList<E> data;
 
 	public StackArrayList()
@@ -43,16 +42,4 @@ public class StackArrayList<E>
 	{
 		return size() == 0;
 	}
-
-    @Override
-    public void add(E num) {
-        // TODO Auto-generated method stub
-        
-    }
-
-    @Override
-    public E remove() {
-        // TODO Auto-generated method stub
-        return null;
-    }
 }
