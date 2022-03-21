@@ -8,14 +8,14 @@ public class Defun {
     
     private HashMap<String, Object> variables = new HashMap<>();
     private List<Object> instrucciones;
-    private String s = "";
+    private String nombreFuncion = "";
     
     
     public Defun(String nombre, Object var, Object newIns){
         List<String> variables = new ArrayList<>();
         variables.add(var.toString());
         List ins = (List) newIns;
-        this.s = nombre;
+        this.nombreFuncion = nombreFuncion;
         for (String item: variables){
             this.variables.put(item, null);
         }
@@ -23,13 +23,14 @@ public class Defun {
     }
     
     public String getNombre(){
-        return this.s;
+        return this.nombreFuncion;
     }
     
     public static String fun(ArrayList<String> function) {
     	String nombre = "";
 		return nombre;
     }
+    
     
     
 
