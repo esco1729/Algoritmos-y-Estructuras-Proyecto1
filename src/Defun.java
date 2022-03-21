@@ -11,10 +11,10 @@ public class Defun {
     private String nombreFuncion = "";
     
     
-    public Defun(String nombre, Object var, Object newIns){
+    public Defun(String nombreFuncion, Object var, Object newIns){
         List<String> variables = new ArrayList<>();
         variables.add(var.toString());
-        List ins = (List) newIns;
+        List instrucciones = (List) newIns;
         this.nombreFuncion = nombreFuncion;
         for (String item: variables){
             this.variables.put(item, null);
