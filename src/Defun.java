@@ -26,6 +26,11 @@ public class Defun {
         return this.s;
     }
     
+    public static String fun(ArrayList<String> function) {
+    	String nombre = "";
+		return nombre;
+    }
+    
     
 
 }
