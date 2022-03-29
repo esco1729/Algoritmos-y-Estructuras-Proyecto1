@@ -1,0 +1,5 @@
+( DEFUN factorial ( n ) ( COND ( ( eq n 0.0 ) 1 ) ( ( eq n 1.0 ) 1 ) ( t ( * n ( factorial ( - n 1 ) ) ) ) ) )
+
+( DEFUN fibonacci ( n ) ( COND ( ( < n 2 ) n ) ( t ( + ( fibonacci ( - n 1 ) ) ( fibonacci ( - n 2 ) ) ) ) ) )
+
+ ( + ( * 2 1.8 ) 32 ) 
